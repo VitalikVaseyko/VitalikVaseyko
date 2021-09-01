@@ -1,15 +1,18 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: Python AI
+name: DensyPythone
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on:add data
+  push:analog input data
+    branches: [ AI ]
+  pull_request:PyAI
+    branches: [ NN ]
 
-jobs:
+jobs:learning-py-NN
+     learning-py-AI
+     learning-py-DL
+     learning-py-ML
   build:
 
     runs-on: ubuntu-latest
